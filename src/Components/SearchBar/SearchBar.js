@@ -21,7 +21,7 @@ class SearchBar extends BaseComponent {
         return (
             <div className="SearchBar">
                 <input onChange={this.handleTermChange} placeholder="Enter A Song, Album, or Artist" />
-                <a>SEARCH</a>
+                <p>SEARCH</p>
             </div>
         );
     }
